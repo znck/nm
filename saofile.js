@@ -3,6 +3,12 @@ module.exports = {
   prompts() {
     return [
       {
+        name: 'namespaced',
+        message: 'Is the package namespaced?',
+        default: true,
+        filter: val => val.toLowerCase()
+      },
+      {
         name: 'name',
         message: 'What is the name of the new project',
         default: this.outFolder,

@@ -4,8 +4,8 @@
 
 <div class="text-xs-center" align="center">
 
-[![NPM version](https://img.shields.io/npm/v/<%= name %>.svg?style=flat)](https://npmjs.com/package/<%= name %>)
-[![NPM downloads](https://img.shields.io/npm/dm/<%= name %>.svg?style=flat)](https://npmjs.com/package/<%= name %>)
+[![NPM version](https://img.shields.io/npm/v/<%= name %>.svg?style=flat)](https://npmjs.com/package/<% if (namespaced) { %>@znck/<%}%><%= name %>)
+[![NPM downloads](https://img.shields.io/npm/dm/<% if (namespaced) { %>@znck/<%}%><%= name %>.svg?style=flat)](https://npmjs.com/package/<%= name %>)
 
 </div>
 
@@ -16,13 +16,13 @@
 ## Install
 
 ```bash
-npm add <%= name %>
+npm add <% if (namespaced) { %>@znck/<%}%><%= name %>
 ```
 
 ## Usage
 
 ```js
-import <%= name %> from '<%= name %>'
+import S from '<% if (namespaced) { %>@znck/<%}%><%= name %>'
 
 ...
 ```
@@ -40,4 +40,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 **<%= name %>** © [Rahul Kadyan](https://github.com/znck), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by Rahul Kadyan with help from contributors ([list](https://github.com/znck/<%= name %>/contributors)).
 
-> [znck.me](https://znck.me) · GitHub [znck](https://github.com/znck) · Twitter [@znck0](https://twitter.com/@znck0)
+> [znck.me](https://znck.me) · GitHub ([znck](https://github.com/znck)) · Twitter ([@znck0](https://twitter.com/@znck0))

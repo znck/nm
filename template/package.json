@@ -1,5 +1,5 @@
 {
-  "name": "<%= name  %>",
+  "name": "<% if (namespaced) { %>@znck/<%}%><%= name  %>",
   "version": "0.0.0",
   "description": "<%= description  %>",
   "repository": {
