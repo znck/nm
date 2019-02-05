@@ -22,7 +22,7 @@ npm add <%= name %>
 ## Usage
 
 ```js
-import <%= name.replace(/[^a-z]+(a-z)/g, (_, c) = %> c.toUpperCase()) %> from '<%= name %>'
+import <%= name %> from '<%= name %>'
 
 ...
 ```
