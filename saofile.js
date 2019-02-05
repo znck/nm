@@ -1,4 +1,5 @@
 module.exports = {
+  npmClient: 'pnpm',
   prompts() {
     return [
       {
@@ -29,7 +30,7 @@ module.exports = {
   ],
   async completed() {
     this.gitInit()
-    await this.pnpmInstall()
+    await this.npmInstall()
     this.showProjectTips()
   }
 }
