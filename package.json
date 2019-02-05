@@ -23,8 +23,5 @@
   "files": [
     "sao.js",
     "template"
-  ],
-  "dependencies": {
-    "camelcase": "^4.0.0"
-  }
+  ]
 }
