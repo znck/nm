@@ -1,10 +1,10 @@
 {
-  "name": "<%= name >",
+  "name": "<%= name  %>",
   "version": "0.0.0",
-  "description": "<%= description >",
+  "description": "<%= description  %>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/znck/<%= name >.git"
+    "url": "git+https://github.com/znck/<%= name  %>.git"
   },
   "keywords": [
   ],
@@ -15,9 +15,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/znck/<%= name >/issues"
+    "url": "https://github.com/znck/<%= name  %>/issues"
   },
-  "homepage": "https://github.com/znck/<%= name >#readme",
+  "homepage": "https://github.com/znck/<%= name  %>#readme",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
@@ -45,8 +45,8 @@
     "dist/"
   ],
   "browserslist": "> 0.25%, not dead",
-  "main": "dist/<%= name >.js",
-  "module": "dist/<%= name >.es.js",
+  "main": "dist/<%= name  %>.js",
+  "module": "dist/<%= name  %>.es.js",
   "browser": "src/index.js",
   "jest": {
     "moduleFileExtensions": [
