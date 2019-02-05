@@ -5,7 +5,7 @@ module.exports = {
       {
         name: 'namespaced',
         message: 'Is the package namespaced?',
-        default: true
+        default: 'true'
       },
       {
         name: 'name',
