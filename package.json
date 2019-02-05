@@ -1,0 +1,30 @@
+{
+  "name": "@znck/nm",
+  "version": "0.0.0",
+  "description": "Scaffolding out a node module.",
+  "repository": {
+    "url": "znck/nm",
+    "type": "git"
+  },
+  "scripts": {
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/template/"
+    ]
+  },
+  
+  "author": {
+    "name": "Rahul Kadyan",
+    "email": "hi@znck.me",
+    "url": "https://znck.me"
+  },
+  "license": "MIT",
+  "files": [
+    "sao.js",
+    "template"
+  ],
+  "dependencies": {
+    "camelcase": "^4.0.0"
+  }
+}
