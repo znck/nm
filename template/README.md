@@ -1,5 +1,3 @@
-<% const camelcasedName = this.camelcase(name) -%>
-
 <div class="text-xs-center" align="center" style="margin: 20px">
   <img src="./logo.png" height="255" alt="<% name %>">
 </div>
@@ -12,6 +10,7 @@
 </div>
 
 ## Introduction
+
 <%= description %>
 
 ## Install
@@ -23,7 +22,7 @@ npm add <%= name %>
 ## Usage
 
 ```js
-import <%= camelcasedName %> from '<%= name %>'
+import <%= name.replace(/[^a-z]+(a-z)/g, (_, c) => c.toUpperCase()) %> from '<%= name %>'
 
 ...
 ```
