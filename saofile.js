@@ -5,8 +5,7 @@ module.exports = {
       {
         name: 'namespaced',
         message: 'Is the package namespaced?',
-        default: true,
-        filter: val => val.toLowerCase()
+        default: true
       },
       {
         name: 'name',
